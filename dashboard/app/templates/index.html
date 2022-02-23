@@ -13,16 +13,18 @@
     width: 1000px;
   }
 </style>
-  </head>
+    
+    
+</head>
 <body>
-  <br>
-
-  <br><br>
-  <Center><h3>Percentages of each Product type</h3></Center>
   
-  <div class="chartBox">
-    <canvas id="myChart1"></canvas>
-  </div>
+<br><br><br>
+<Center><h3>Percentages of each Product type</h3></Center>
+<div class="chartBox">
+     <canvas id="myChart1"></canvas>
+</div>
+    
+    
   <!-- <div class="chartBox">
     <canvas id="myChart2"></canvas>
 </div>  -->
@@ -31,52 +33,45 @@
         <canvas id="myChart"></canvas>
     </div> -->
 
-    <br>
-  
-
-  
-<br>
-<br><br>
+    
+<br><br><br>
 <Center><h3>Percentages of each Buildtrain type</h3></Center>
-
 <div class="chartBox">
-  <canvas id="myChart5"></canvas>
+    <canvas id="myChart5"></canvas>
 </div>
-<br><br>
+    
+    
+    
+<br><br><br>
 <Center><h3>Percentages of each type of Build versions</h3></Center>
+<div class="chartBox">
+     <canvas id="myChart6"></canvas>
+</div>
 
 
-
-  <div class="chartBox">
-        <canvas id="myChart6"></canvas>
-    </div>
-<br>
-
-<br><br>
+<br><br><br>
 <Center><h3>Percentages of each Agentid type</h3></Center>
-
 <div class="chartBox">
   <canvas id="myChart3"></canvas>
 </div>
-<br>
 
-<br><br>
+
+<br><br><br>
 <Center><h3>Percentages of each State Type'</h3></Center>
-
 <div class="chartBox">
   <canvas id="myChart4"></canvas>
 </div>
-<br>
 
-<br><br>
+
+<br><br><br>
 <Center><h3>Percentages of each type of Hardware models</h3></Center>
-
 <div class="chartBox">
   <canvas id="myChart7"></canvas>
 </div>
 
 
-    <script>
+    
+<script>
 
         // var ctx = document.getElementById('myChart').getContext('2d');
         // var myChart = new Chart(ctx, {
@@ -106,6 +101,10 @@
 
 
         // });
+    
+    
+    
+    // Each block of script contain code for pie each chart
 
         var ctx = document.getElementById('myChart6').getContext('2d');
         var myChart = new Chart(ctx, {
@@ -167,6 +166,9 @@
 
 
         });
+    
+    
+    
 
         var ctx = document.getElementById('myChart5').getContext('2d');
         var myChart = new Chart(ctx, {
@@ -292,7 +294,7 @@
 
 
 
-        var ctx = document.getElementById('myChart1').getContext('2d');
+  var ctx = document.getElementById('myChart1').getContext('2d');
   
   var myChart = new Chart(ctx, {
       type: 'pie',// bar, horizontalBar, pie, line, doughnut, radar, polarArea
